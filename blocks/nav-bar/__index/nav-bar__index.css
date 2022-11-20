@@ -1,0 +1,10 @@
+.nav-bar__index {
+  background-color: rgba(4, 4, 4, 0.76);
+  border-radius: 10%;
+  color: #ffffff;
+  max-width: 316px;
+  margin: 0;
+  font-family: "Inter";
+  font-size: 40px;
+  padding: 10px;
+}

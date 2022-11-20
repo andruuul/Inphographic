@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foro de idiomas</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <main class="page">
+      <div class="menu">
+        <div class="logo"></div>
+        <nav class="nav-bar">
+          <a href="#" class="nav-bar__index">HOME</a>
+          <a href="#" class="nav-bar__index">ABOUT US</a>
+          <a href="#" class="nav-bar__index">ENROLL</a>
+          <a href="#" class="nav-bar__index">COMMENT</a>
+        </nav>
+      </div>
+      <section class="description">
+        <h1 class="description__header">ABOUT US</h1>
+        <div class=""></div>
+      </section>
+      <div class="profile">
+        <p>Do you want to practice?</p>
+        <button class="profile__add-button" type="button">Make a profile</button>
+        <div class="perfiles">
+          <p>Here are people to practice, choose  profile</p>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="social-media">
+          <a class="github" href="#"></a>
+        </div>
+        <div class="copyright">
+          <p class="copyright__text">Andrés</p>
+          <p class="copyright__text">Aracely Cruz Del ángel</p>
+          <p class="copyright__text">Cristian</p>
+        </div>
+      </div>
+      <div class="popup">
+        <div class="popup__container">
+          <form class="form popup__form" novalidate name="form">
+            <fieldset class="form__fields">
+              <h2 class="form__heading">Create a profile</h2>
+              <div class="form__field">
+                <label for="name">Share your name</label>
+                <input
+                  type="text"
+                  class="form__input"
+                  placeholder="Nombre Apellido"
+                  name="name"
+                  value=" "
+                  id="name"
+                  required
+                  minlength="5"
+                  maxlength="40"
+                />
+                <span class="popup__error name-error"></span>
+                <label for="photo">Share a good profile photo</picture></label>
+                <input
+                  type="url"
+                  class="form__input"
+                  placeholder="url"
+                  name="url"
+                  value=" "
+                  id="photo"
+                  required
+                  minlength="5"
+                  maxlength="40"
+                />
+                <span class="popup__error url-error"></span>
+                <label for="place"> Wher're you from?</label>
+                <input
+                  type="text"
+                  class="form__input"
+                  placeholder="city,country"
+                  name="place"
+                  value=" "
+                  id="place"
+                  required
+                  minlength="2"
+                  maxlength="200"
+                />
+                <span class="popup__error place-error"></span>
+
+              </div>
+     
+              <div class="form__field">
+                <label for="email">Share your email</label>
+                <input
+                  type="email"
+                  class="form__input popup__input"
+                  placeholder="user@domain.com"
+                  name="email"
+                  value=" "
+                  id="email"
+                  required
+                  minlength="2"
+                  maxlength="40"
+                />
+                <span class="popup__error email-error"></span>
+
+
+                <label for="email">what lenguaje you want to practice?</label>
+                <input
+                  type="text"
+                  class="form__input popup__input"
+                  placeholder="user@domain.com"
+                  name="email"
+                  value=" "
+                  id="email"
+                  required
+                  minlength="2"
+                  maxlength="40"
+                />
+                <span class="popup__error email-error"></span>
+              </div>
+            
+              <button
+                class="form__Button form__submit popup__button pointer"
+                type="submit"
+              >
+                Guardar
+              </button>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <template class="template__profile">
+      <div class="item">
+
+        <div class="avatar">
+          <img
+          class="avatar__image"
+          src="https://code.s3.yandex.net/web-code/lake-louise.jpg"
+          alt=""
+        />
+        <p class="avatar__name"></p>
+        <p class="avatar__languaje"></p>
+        </div>
+        <div class="contact">
+          <p class="contact__email"></p>
+        </div>
+
+      </div>
+    </template>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>

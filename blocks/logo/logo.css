@@ -1,0 +1,9 @@
+.logo {
+  width: 34%;
+  margin: auto;
+  min-height: 390px;
+  background-image: url("../../images/speakingDifferntlogo.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+}

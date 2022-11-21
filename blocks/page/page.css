@@ -1,11 +1,13 @@
 .page {
   min-width: 320px;
+  min-height: 100vh;
   margin: auto;
   padding: 0;
   background: #98C1D9;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  align-self: flex-start;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;

@@ -1,0 +1,15 @@
+.prompt__button {
+    font-family: 'Inter';
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.21;
+    color: #fff;
+    border: none;
+    resize: none;
+    outline: none;
+    display: block;
+    margin: 0 0 20px 10px;
+    height: 36px;
+    background-color: #07223A;
+
+}

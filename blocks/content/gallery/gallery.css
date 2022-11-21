@@ -8,9 +8,10 @@
   max-width: 1195px;
   height: 835px;
   padding: 40px;
-  margin: 80px 40px 80px;
+  margin: 80px auto 80px;
   background-color: #3D5A80;
   border-radius: 25px;
+  justify-self: center;
 }
 
 @media screen and (max-width: 730px) {

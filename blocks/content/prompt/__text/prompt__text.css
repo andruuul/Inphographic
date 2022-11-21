@@ -1,0 +1,13 @@
+.prompt__text {
+  font-family: 'Inter';
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.21;
+  color: #000;
+  border: none;
+  resize: none;
+  outline: none;
+  text-align: center;
+  margin: 0 40px 20px;
+  max-width: 1000px;
+}

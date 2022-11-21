@@ -33,6 +33,20 @@
           <figure class="gallery__item"><img src="./images/coffee.jpg" alt="" class="gallery__image"></figure>
         </section>
 
+        <section class="prompt">
+          <h1 class="prompt__title">Need some conversation ideas?</h1>
+          <div class="prompt__container">
+            <form class="prompt__form">
+              <label class="prompt__subtitle">Type a number from 1 to 20 to get a prompt</label>
+              <input class="prompt__input" type="number" name="prompt" max="20" min="1" required placeholder="1 - 20" />
+              <button class="prompt__button">Get prompt!</button>
+            </form>
+            <p class="prompt__category"></p>
+            <p class="prompt__text"></p>
+          </div>
+        </section>
+        
+
         <div class="profile">
           <p>Do you want to practice?</p>
           <button class="profile__add-button" type="button">Make a profile</button>
@@ -85,7 +99,6 @@
           </form>
         </div>
       </div>
-      //page
     </div>
 
     <template class="template__profile">
@@ -103,6 +116,6 @@
 
       </div>
     </template>
-    <script src="./scripts/index.js"></script>
+    <script type="module" src="./scripts/index.js"></script>
   </body>
 </html>

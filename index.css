@@ -5,4 +5,9 @@
 @import url(./blocks/logo/logo.css);
 @import url(./blocks/nav-bar/nav-bar.css);
 @import url(./blocks/nav-bar/__index/nav-bar__index.css);
+@import url(./blocks/content/gallery/gallery.css);
+@import url(./blocks/content/gallery/__image/gallery__image.css);
+@import url(./blocks/content/gallery/__item/gallery__item.css);
 @import url(./blocks/description/description.css);
+
+

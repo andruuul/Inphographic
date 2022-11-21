@@ -1,6 +1,7 @@
 .prompt__container {
   background-color: #3D5A80;
   max-width: 1000px;
+  min-width: 80%;
   height: 100%;
   display: flex;
   flex-wrap: wrap;

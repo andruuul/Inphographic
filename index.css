@@ -11,6 +11,7 @@
 @import url(./blocks/description/__image/description__image.css);
 @import url(./blocks/description/__text/descrption__text.css);
 @import url(./blocks/description/__span/description__span.css);
+@import url(./blocks/header/__nave-button/header__nave-button.css);
 @import url(./blocks/content/gallery/gallery.css);
 @import url(./blocks/content/gallery/__image/gallery__image.css);
 @import url(./blocks/content/gallery/__item/gallery__item.css);
@@ -44,6 +45,8 @@
 @import url(./blocks/content/prompt/__category/prompt__category.css);
 @import url(./blocks/content/prompt/prompt.css);
 @import url(./blocks/overlay/overlay.css);
+
+@import url(./blocks/nav-bar/__show/nav-bar__show.css);
 
 @font-face {
   font-family: "Inter";

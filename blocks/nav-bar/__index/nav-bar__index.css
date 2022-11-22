@@ -1,10 +1,81 @@
+@keyframes hover {
+  0% {
+    transform: scale(1);
+    transform: translate(0);
+  }
+
+  100% {
+    transform: scale(1.2);
+    transform: translateY(-40px);
+  }
+}
+@keyframes hoverreverse {
+  0% {
+    transform: scale(1.2);
+    transform: translatey(-40px);
+  }
+
+  100% {
+    transform: scale(1);
+    transform: translateY(0);
+  }
+}
+
 .nav-bar__index {
-  background-color: rgba(4, 4, 4, 0.76);
-  border-radius: 10%;
+  width: 180px;
+  height: 40px;
+  padding: 20px 10px;
+  text-decoration: none;
+  text-align: center;
+  background-color: #3d5a80;
+  border-radius: 150px;
   color: #ffffff;
-  max-width: 316px;
-  margin: 0;
   font-family: "Inter";
-  font-size: 40px;
-  padding: 10px;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39px;
+}
+
+@media screen and (max-width: 1180px) {
+  .nav-bar__index {
+    width: 141px;
+    height: 20px;
+    font-size: 27px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .nav-bar__index {
+    height: 20px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 692px) {
+  .nav-bar__index {
+    font-size: 23px;
+    width: 125px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nav-bar__index {
+    width: 100px;
+    font-size: 20px;
+  }
+}
+
+.nav-bar__index:hover{
+  opacity: .5;
+}
+/* media quary para animaciones en pantalla hd en adelante */
+@media screen and (min-width: 1400px) {
+  .nav-bar__index:hover {
+    animation: hover 0.6s ease-in-out forwards;
+  }
+
+  .nav-bar__index:not(hover) {
+    animation: hoverreverse 0.6s linear;
+  }
 }

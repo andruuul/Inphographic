@@ -21,24 +21,59 @@
 
       <main class="content">
         <section class="description">
-          <h1 class="description__header">Hello there, we are Conversation Time! We help people who want to practice languages find each other.<br>Find exactly what you need: exchange languages, get to know another culture, improve your language skills... but most importantly, enjoy yourself!<br>Good luck!</h1>
-          <div class=""></div>
+          <div class="description__container">
+            <h1 class="description__header">
+              Hello there, we are Conversation Time!
+            </h1>
+            <p class="descrption__text">
+              We help people who want to practice languages find each other.Find
+              exactly what you need: exchange languages, get to know another
+              culture, improve your language skills... but most importantly,
+              enjoy yourself!
+            </p>
+            <span class="description__span">Good luck!</span>
+          </div>
+          <img
+            class="description__image"
+            src="https://media.istockphoto.com/id/1323637777/es/foto/un-hombre-y-una-mujer-parpadeando-tazas-de-caf%C3%A9-en-el-caf%C3%A9.jpg?b=1&s=170667a&w=0&k=20&c=pf-t02QAsY3Exjgl5E8-96r4VPsmU_fFnQUQ93dV7A0="
+            alt="conversation in a coffe shop"
+          />
         </section>
 
         <section class="gallery">
-          <figure class="gallery__item"><img src="./images/couch.jpg" alt="" class="gallery__image"></figure>
-          <figure class="gallery__item"><img src="./images/letters.jpg" alt="" class="gallery__image"></figure>
-          <figure class="gallery__item"><img src="./images/brunch.jpg" alt="" class="gallery__image"></figure>
-          <figure class="gallery__item"><img src="./images/family.jpg" alt="" class="gallery__image"></figure>
-          <figure class="gallery__item"><img src="./images/coffee.jpg" alt="" class="gallery__image"></figure>
+          <figure class="gallery__item">
+            <img src="./images/couch.jpg" alt="" class="gallery__image" />
+          </figure>
+          <figure class="gallery__item">
+            <img src="./images/letters.jpg" alt="" class="gallery__image" />
+          </figure>
+          <figure class="gallery__item">
+            <img src="./images/brunch.jpg" alt="" class="gallery__image" />
+          </figure>
+          <figure class="gallery__item">
+            <img src="./images/family.jpg" alt="" class="gallery__image" />
+          </figure>
+          <figure class="gallery__item">
+            <img src="./images/coffee.jpg" alt="" class="gallery__image" />
+          </figure>
         </section>
 
         <section class="prompt">
           <h1 class="prompt__title">Need some conversation ideas?</h1>
           <div class="prompt__container">
             <form class="prompt__form">
-              <label class="prompt__subtitle">Type a number from 1 to 20 to get a prompt</label>
-              <input class="prompt__input" type="number" name="prompt" max="20" min="1" required placeholder="1 - 20" />
+              <label class="prompt__subtitle"
+                >Type a number from 1 to 20 to get a prompt</label
+              >
+              <input
+                class="prompt__input"
+                type="number"
+                name="prompt"
+                max="20"
+                min="1"
+                required
+                placeholder="1 - 20"
+              />
               <button class="prompt__button">Get prompt!</button>
             </form>
             <p class="prompt__category"></p>
@@ -50,9 +85,8 @@
           <p class="people__text">Do you want to practice?</p>
           <button class="people__addButton">Make a comment!</button>
           <p>Here are some people who also want to practice, choose someone!</p>
-          <div class="people__profiles"></div>          
+          <div class="people__profiles"></div>
         </section>
-
       </main>
 
       <footer class="footer">
@@ -60,7 +94,9 @@
           <a class="github" href="#"></a>
         </div>
         <div class="copyright">
-          <p class="copyright__text">&copy; Cristian Alegria, Andrés Canul, Aracely Cruz</p>
+          <p class="copyright__text">
+            &copy; Cristian Alegria, Andrés Canul, Aracely Cruz
+          </p>
         </div>
       </footer>
 
@@ -69,13 +105,40 @@
           <h2 class="form__heading">Post something!</h2>
           <fieldset class="form__fields">
             <label class="form__label" for="name">Name</label>
-            <input type="text" class="form__input" name="name" value="" id="name" placeholder="First and last name" required minlength="5" maxlength="40"/>
+            <input
+              type="text"
+              class="form__input"
+              name="name"
+              value=""
+              id="name"
+              placeholder="First and last name"
+              required
+              minlength="5"
+              maxlength="40"
+            />
             <span class="popup__error name-error"></span>
             <label class="form__label" for="photo">Add a picture</label>
-            <input type="url" class="form__input" placeholder="Add an image's URL" name="url" value=" " id="photo" required minlength="5" maxlength="40"/>
+            <input
+              type="url"
+              class="form__input"
+              placeholder="Add an image's URL"
+              name="url"
+              value=" "
+              id="photo"
+              required
+              minlength="5"
+              maxlength="40"
+            />
             <span class="popup__error url-error"></span>
             <label class="form__label" for="comment">Your comment:</label>
-            <textarea class="form__input" name="comment" id="comment" cols="30" rows="10" placeholder="What language do you want to practice? When are you free? Leave your contact information."></textarea>
+            <textarea
+              class="form__input"
+              name="comment"
+              id="comment"
+              cols="30"
+              rows="10"
+              placeholder="What language do you want to practice? When are you free? Leave your contact information."
+            ></textarea>
             <span class="popup__error place-error"></span>
             <button class="form__button" type="submit">Post</button>
           </fieldset>

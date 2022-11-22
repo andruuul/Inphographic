@@ -26,7 +26,7 @@ export const profiledata = [
     name: "Cristian Alegría",
     url: "https://code.s3.yandex.net/web-code/yosemite.jpg",
     comment:
-      "Hi everyone! I would love to practice some English. I can help you with Spanish in exchange! I have a pretty flexible schedule. Send me a mail so we can arrange something! cristianalegria@gmail.com",
+      "Hi everyone! I would love to practice English. I can help you with Spanish in exchange! I have a pretty flexible schedule. Send me an email so we can arrange a meeting! cristianalegria@gmail.com",
   },
   {
     name: "Andrés Canul",

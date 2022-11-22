@@ -49,16 +49,10 @@
         <section class="people">
           <p class="people__text">Do you want to practice?</p>
           <button class="people__addButton">Make a comment!</button>
+          <p>Here are some people who also want to practice, choose someone!</p>
           <div class="people__profiles"></div>          
         </section>
 
-        <div class="profile">
-          <p>Do you want to practice?</p>
-          <button class="profile__add-button" type="button">Make a profile</button>
-          <div class="profiles">
-            <p>Here are some people who also want to practice, choose a profile</p>
-          </div>
-        </div>
       </main>
 
       <footer class="footer">
@@ -71,27 +65,21 @@
       </footer>
 
       <div class="popup popup_hidden">
-        <div class="popup__container">
-          <form class="form popup__form" novalidate name="form">
-            <fieldset class="form__fields">
-              <h2 class="form__heading">Post something!</h2>
-              <div class="form__field">
-                <label class="form__label" for="name">Name</label>
-                <input type="text" class="form__input" name="name" value="" id="name" placeholder="First and last name" required minlength="5" maxlength="40"/>
-                <span class="popup__error name-error"></span>
-
-                <label class="form__label" for="photo">Add a picture</label>
-                <input type="url" class="form__input" placeholder="Add an image's URL" name="url" value=" " id="photo" required minlength="5" maxlength="40"/>
-                <span class="popup__error url-error"></span>
-
-                <label class="form__label" for="comment">Your comment:</label>
-                <textarea class="form__input" name="comment" id="comment" cols="30" rows="10" placeholder="What language do you want to practice? When are you free? Leave your contact information."></textarea>
-                <span class="popup__error place-error"></span>
-              </div>
-              <button class="form__button form__submit popup__button pointer" type="submit">Post</button>
-            </fieldset>
-          </form>
-        </div>
+        <form class="form" novalidate name="form">
+          <h2 class="form__heading">Post something!</h2>
+          <fieldset class="form__fields">
+            <label class="form__label" for="name">Name</label>
+            <input type="text" class="form__input" name="name" value="" id="name" placeholder="First and last name" required minlength="5" maxlength="40"/>
+            <span class="popup__error name-error"></span>
+            <label class="form__label" for="photo">Add a picture</label>
+            <input type="url" class="form__input" placeholder="Add an image's URL" name="url" value=" " id="photo" required minlength="5" maxlength="40"/>
+            <span class="popup__error url-error"></span>
+            <label class="form__label" for="comment">Your comment:</label>
+            <textarea class="form__input" name="comment" id="comment" cols="30" rows="10" placeholder="What language do you want to practice? When are you free? Leave your contact information."></textarea>
+            <span class="popup__error place-error"></span>
+            <button class="form__button" type="submit">Post</button>
+          </fieldset>
+        </form>
       </div>
     </div>
     <div class="overlay"></div>

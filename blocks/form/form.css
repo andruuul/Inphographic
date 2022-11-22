@@ -1,8 +1,9 @@
 .form {
-  padding: 61.11px 77.71px 69.54px 77.71px;
+  width: 100%;
   font-family: "Inter";
+  font-size: 20px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

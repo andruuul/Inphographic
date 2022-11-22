@@ -1,6 +1,6 @@
 .popup {
-  max-width: 1143px;
-  min-height: 1107px;
+  max-height: 1100px;
+  max-width: 1140px;
   background: #FFFFFF;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
@@ -18,8 +18,8 @@
   visibility: visible;
   opacity: 1;
   transition: visibility 0s, opacity .5s;
-  overflow: visible;
-  background-color: transparent;
+  overflow: hidden;
+  background-color: red;
 }
 
 .popup_hidden {

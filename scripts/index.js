@@ -75,7 +75,7 @@ function showPrompt(promptNumber) {
 const commentPopup = new Popup(".popup")
 commentPopup.setEventListeners()
 
-document.querySelector(".profile__add-button").addEventListener("click", (evt) => {
+document.querySelector(".people__addButton").addEventListener("click", (evt) => {
   evt.preventDefault();
   commentPopup.open()
 })

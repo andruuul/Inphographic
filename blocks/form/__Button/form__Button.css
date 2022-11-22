@@ -7,3 +7,8 @@
   overflow: hidden;
   border: transparent;
 }
+
+.form__button:hover {
+  opacity: .6;
+  cursor: pointer;
+}

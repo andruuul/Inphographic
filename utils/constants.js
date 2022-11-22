@@ -25,19 +25,24 @@ export const profiledata = [
   {
     name: "Cristian Alegría",
     url: "https://code.s3.yandex.net/web-code/yosemite.jpg",
-    comment:
-      "Hi everyone! I would love to practice English. I can help you with Spanish in exchange! I have a pretty flexible schedule. Send me an email so we can arrange a meeting! cristianalegria@gmail.com",
+    comment: "Hi everyone! I would love to practice English. I can help you with Spanish in exchange! I have a pretty flexible schedule. Send me an email so we can arrange a meeting! cristianalegria@gmail.com",
   },
   {
     name: "Andrés Canul",
     url: "https://code.s3.yandex.net/web-code/lake-louise.jpg",
-    comment:
-      "大家好！我想练习普通话，我可以帮助你学习西班牙语或意大利语。 给我发微信：dewen8998",
+    comment: "大家好！我想练习普通话，我可以帮助你学习西班牙语或意大利语。 给我发微信：dewen8998",
   },
   {
     name: "Aracely Cruz Del ángel",
     url: "https://code.s3.yandex.net/web-code/lago.jpg",
-    comment:
-      "Hola, quiero practicar inglés básico, envíame un email! Normalmente estoy libre los lunes y podemos hablar por Zoom o Skype. aracely@gmail.com",
+    comment: "Hola, quiero practicar inglés básico, envíame un email! Normalmente estoy libre los lunes y podemos hablar por Zoom o Skype. aracely@gmail.com",
   },
 ];
+
+export const settings = {
+  inactiveButtonSelector: "form__button_inactive", 
+  saveButtonSelector: ".form__button",
+  inputSelector: ".form__input",
+  errorSelector: "form__input-error",
+  errorActiveSelector: "form__input-error"
+}

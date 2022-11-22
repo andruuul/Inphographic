@@ -21,12 +21,3 @@
   overflow: hidden;
   background-color: red;
 }
-
-.popup_hidden {
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s, opacity 0s;
-  overflow: hidden;
-  height: 0;
-  width: 0;
-}

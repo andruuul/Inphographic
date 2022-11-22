@@ -1,8 +1,8 @@
 .description {
-  width: 100%;
-  z-index: 1;
-  min-height: 500px;
-  background-image: url("https://media.istockphoto.com/id/1323637777/es/foto/un-hombre-y-una-mujer-parpadeando-tazas-de-caf%C3%A9-en-el-caf%C3%A9.jpg?b=1&s=170667a&w=0&k=20&c=pf-t02QAsY3Exjgl5E8-96r4VPsmU_fFnQUQ93dV7A0=");
-  background-repeat: no-repeat;
-  background-size: cover;
+  max-width: 1195px;
+  margin-top: 30px;
+  background-color: #3d5a80;
+  border-radius: 30px;
+  display: flex;
+  padding: 30px;
 }

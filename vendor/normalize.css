@@ -15,8 +15,10 @@ html {
     /* 1 */
     -webkit-text-size-adjust: 100%;
     /* 2 */
+    display: flex;
+    justify-content: center;
+    background: #98c1d9;
 }
-
 
 /* Secciones
      ========================================================================== */

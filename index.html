@@ -29,7 +29,7 @@
             <h1 class="description__header">
               Hello there, we are Conversation Time!
             </h1>
-            <p class="descrption__text">
+            <p class="description__text">
               We help people who want to practice languages find each other.Find
               exactly what you need: exchange languages, get to know another
               culture, improve your language skills... but most importantly,
@@ -88,20 +88,19 @@
       </footer>
 
       <div class="popup popup_hidden">
-        <form class="form" novalidate name="form">
+        <form class="form" name="comment-form">
           <h2 class="form__heading">Post something!</h2>
           <fieldset class="form__fields">
             <label class="form__label" for="name">Name</label>
             <input type="text" class="form__input" name="name" value="" id="name" placeholder="First and last name" required minlength="5" maxlength="40"/>
-            <span class="popup__error name-error"></span>
+            <span class="form__input-error name-input-error"></span>
             <label class="form__label" for="photo">Add a picture</label>
-            <input type="url" class="form__input" placeholder="Add an image's URL" name="url" value=" " id="photo" required minlength="5" maxlength="40"
-            />
-            <span class="popup__error url-error"></span>
+            <input type="url" class="form__input" placeholder="Add an image's URL" name="url" value="" id="url" required />
+            <span class="form__input-error url-input-error"></span>
             <label class="form__label" for="comment">Your comment:</label>
-            <textarea class="form__input" name="comment" id="comment" cols="30" rows="10" placeholder="What language do you want to practice? When are you available to have a call? Leave your contact information."></textarea>
-            <span class="popup__error place-error"></span>
-            <button class="form__button" type="submit">Post</button>
+            <textarea class="form__input" name="comment" id="comment" required cols="30" rows="10" minlength="20" maxlength="400" placeholder="What language do you want to practice? When are you available to have a call? Leave your contact information."></textarea>
+            <span class="form__input-error comment-input-error"></span>
+            <button class="form__button form__button_inactive" type="submit">Post</button>
           </fieldset>
         </form>
       </div>

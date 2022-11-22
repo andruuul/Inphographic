@@ -2,9 +2,10 @@
 //const addProfileButton = document.querySelector(".profile__add-button");
 //console.log(addProfileButton);
 
-import { conversationPrompts, profiledata } from "../utils/constants.js";
+import { conversationPrompts, profiledata, settings } from "../utils/constants.js";
 import Popup from "../components/Popup.js";
 import Profile from "../components/Profile.js";
+import { FormValidator } from "../components/FormValidator.js";
 
 
 
@@ -50,3 +51,25 @@ document.querySelector(".people__addButton").addEventListener("click", (evt) => 
   evt.preventDefault();
   commentPopup.open()
 })
+
+const form = document.querySelector('.form');
+form.addEventListener("change",() => {
+  console.log("change")
+    document.querySelector(".form__button").disabled = !form.checkValidity()
+});
+
+const formValidators = {}
+
+//Ahora lo dejamos como un "forEach" que trabaja con un array, porque aunque solo haya un formulario ahora, nos gustaría planear a futuro y que esta validación nos sirva para los próximos formularios que creemos con el paso del tiempo.
+const enableValidation = (settings) => {
+  console.log(settings)
+  const formList = Array.from(document.querySelectorAll(".form"))
+  formList.forEach((formElement) => {
+    const validator = new FormValidator(formElement, settings)
+    const formName = formElement.getAttribute('name')
+    formValidators[formName] = validator;
+    validator.enableValidation();
+    console.log(formElement)
+  });
+};
+enableValidation(settings);

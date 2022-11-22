@@ -1,9 +1,12 @@
 export default class Popup {
 
-  constructor (popupSelector) {
-    this._popupSelector = popupSelector
-    this._popup = document.querySelector(this._popupSelector)
+  constructor ({ popupSelector, handleSubmit }) {
+    this._popupSelector = popupSelector;
+    this._handleSubmit = handleSubmit;
+    this._popup = document.querySelector(this._popupSelector);
+    this._form = this._popup.querySelector(".form")
     this._overlay = document.querySelector(".overlay");
+    this._inputs = this._popup.querySelectorAll(".form__input");
   }
   
   open() {
@@ -29,7 +32,16 @@ export default class Popup {
     this._overlay.addEventListener("click", () => {this.close()})
     this._popup.querySelector(".form__button").addEventListener("click", (evt) => {
         evt.preventDefault();
+        this._handleSubmit(this._getInputValues())
         this.close()})
+  }
+
+  _getInputValues(){ 
+    const inputValues = {};
+    this._inputs.forEach(input => {
+        inputValues[input.name] = input.value;
+    });   
+    return inputValues
   }
 } 
 

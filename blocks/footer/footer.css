@@ -1,1 +1,12 @@
-/*Faltan todos los elementos del componente footer*/
+.footer {
+  font-family: "Inter";
+  font-size: 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  text-align: center;
+  padding: 25px 10px 15px 10px;
+  background-color: #293241;
+  max-width: 1280px;
+}

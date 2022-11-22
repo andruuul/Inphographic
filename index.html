@@ -24,7 +24,7 @@
 
       <main class="content">
 
-        <section class="description">
+        <section class="description" id="home">
           <div class="description__container">
             <h1 class="description__header">
               Hello there, we are Conversation Time!
@@ -44,12 +44,6 @@
           />
         </section>
 
-        <section class="description" id="home">
-          <h1 class="description__header">Hello there, we are Conversation Time! We help people who want to practice languages find each other.<br>Find exactly what you need: exchange languages, get to know another culture, improve your language skills... but most importantly, enjoy yourself!<br>Good luck!</h1>
-
-          <div class=""></div>
-        </section>
-
         <section class="gallery" id="gallery">
           <figure class="gallery__item"><img src="./images/couch.jpg" alt="" class="gallery__image"></figure>
           <figure class="gallery__item"><img src="./images/letters.jpg" alt="" class="gallery__image"></figure>
@@ -66,15 +60,7 @@
               <label class="prompt__subtitle"
                 >Type a number from 1 to 20 to get a prompt</label
               >
-              <input
-                class="prompt__input"
-                type="number"
-                name="prompt"
-                max="20"
-                min="1"
-                required
-                placeholder="1 - 20"
-              />
+              <input class="prompt__input" type="number" name="prompt" max="20" min="1" required placeholder="1 - 20" />
               <button class="prompt__button">Get prompt!</button>
             </form>
             <p class="prompt__category"></p>
@@ -106,29 +92,10 @@
           <h2 class="form__heading">Post something!</h2>
           <fieldset class="form__fields">
             <label class="form__label" for="name">Name</label>
-            <input
-              type="text"
-              class="form__input"
-              name="name"
-              value=""
-              id="name"
-              placeholder="First and last name"
-              required
-              minlength="5"
-              maxlength="40"
-            />
+            <input type="text" class="form__input" name="name" value="" id="name" placeholder="First and last name" required minlength="5" maxlength="40"/>
             <span class="popup__error name-error"></span>
             <label class="form__label" for="photo">Add a picture</label>
-            <input
-              type="url"
-              class="form__input"
-              placeholder="Add an image's URL"
-              name="url"
-              value=" "
-              id="photo"
-              required
-              minlength="5"
-              maxlength="40"
+            <input type="url" class="form__input" placeholder="Add an image's URL" name="url" value=" " id="photo" required minlength="5" maxlength="40"
             />
             <span class="popup__error url-error"></span>
             <label class="form__label" for="comment">Your comment:</label>

@@ -1,9 +1,38 @@
 .logo {
-  width: 34%;
-  margin: auto;
-  min-height: 390px;
-  background-image: url("../../images/logo.png");
+  width: 528px;
+  max-height: 200px;
+  /* background-image: url("../../images/logo.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   padding: 0;
+}
+
+@media screen and (max-width: 1244px) {
+  .logo {
+    width: 374px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .logo {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .logo {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .logo {
+    position: relative;
+    bottom: 30px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .logo {
+    width: 320px;
+    bottom: 10px;
+  }
 }

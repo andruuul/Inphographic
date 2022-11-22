@@ -1,0 +1,5 @@
+.prompt__form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

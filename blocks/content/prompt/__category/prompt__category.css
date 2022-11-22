@@ -1,0 +1,13 @@
+.prompt__category {
+  font-family: 'Inter-Black';
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 1.21;
+  color: #000;
+  border: none;
+  resize: none;
+  outline: none;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto 20px;
+}

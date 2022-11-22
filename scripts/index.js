@@ -2,6 +2,11 @@
 //const addProfileButton = document.querySelector(".profile__add-button");
 //console.log(addProfileButton);
 const popup = document.querysellector(".popup");
+import { conversationPrompts } from "../utils/constants.js";
+
+const forms = document.querySelectorAll(".form");
+const addProfileButton = document.querySelector(".profile__add-button");
+console.log(addProfileButton);
 
 const profiledata = [
   {
@@ -55,4 +60,13 @@ profiledata.forEach((item) => {
 function handleNewprofileFormSubmit(evt) {
   evt.preventDefault();
   console.log("holi,voy aser un nuevo profile");
+//Prompts para conversaciones
+document.querySelector(".prompt__form").addEventListener("submit", (e) => {
+  e.preventDefault();
+  showPrompt(document.querySelector(".prompt__form").prompt.value)
+})
+
+function showPrompt(promptNumber) {
+  document.querySelector(".prompt__category").textContent = conversationPrompts[promptNumber - 1].category
+  document.querySelector(".prompt__text").textContent = conversationPrompts[promptNumber - 1].text
 }

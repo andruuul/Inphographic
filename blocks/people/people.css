@@ -1,0 +1,9 @@
+.people {
+  /*width: 88.51%;*/
+  max-width: 1133px;
+  margin: 0 auto;
+  display: flex;
+  row-gap: 72px;
+  background-color: #98c1d9;
+  flex-direction: column;
+}

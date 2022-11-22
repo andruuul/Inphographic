@@ -17,12 +17,12 @@
 @import url(./blocks/avatar/__photo-container/avatar__photo-container.css);
 @import url(./blocks/avatar/__photo/avatar__photo.css);
 @import url(./blocks/avatar/__name/avatar__name.css);
-@import url(./blocks/avatar-coment/avatar-coment.css);
-@import url(./blocks/avatar-coment/__text/avatar-coment__text.css);
+@import url(./blocks/avatar-comment/avatar-comment.css);
+@import url(./blocks/avatar-comment/__text/avatar-comment__text.css);
 @import url(./blocks/popup/popup.css);
 @import url(./blocks/popup/_show/popup_show.css);
 @import url(./blocks/popup/__error/popup__error.css);
-@import url(./blocks/popup/__error/_active/popup__error_active);
+@import url(./blocks/popup/__error/_active/popup__error_active.css);
 @import url(./blocks/popup/__container/popup__container.css);
 @import url(./blocks/form/form.css);
 @import url(./blocks/form/__fields/form__fields.css);
@@ -30,7 +30,7 @@
 @import url(./blocks/form/__field/form__field.css);
 @import url(./blocks/form/__label/form__label.css);
 @import url(./blocks/form/__input/form__input.css);
-@import url(./blocks/form/__Button/form__Button.css);
+@import url(./blocks/form/__button/form__button.css);
 @import url(./blocks/content/prompt/__button/prompt__button.css);
 @import url(./blocks/content/prompt/__container/prompt__container.css);
 @import url(./blocks/content/prompt/__input/prompt__input.css);
@@ -40,6 +40,7 @@
 @import url(./blocks/content/prompt/__form/prompt__form.css);
 @import url(./blocks/content/prompt/__category/prompt__category.css);
 @import url(./blocks/content/prompt/prompt.css);
+@import url(./blocks/overlay/overlay.css);
 
 @font-face {
   font-family: 'Inter';

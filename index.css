@@ -42,6 +42,9 @@
 @import url(./blocks/overlay/overlay.css);
 
 @import url(./blocks/nav-bar/__show/nav-bar__show.css);
+@import url(./blocks/nav-bar/__paste/nav-bar__paste.css);
+@import url(./blocks/header/__none-display/nav-bar__none.css);
+@import url(./blocks/nav-bar/__animation-move/nav-bar__animation-move.css);
 
 @font-face {
   font-family: "Inter";

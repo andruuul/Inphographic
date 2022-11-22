@@ -1,0 +1,29 @@
+@keyframes traslate {
+    0%{
+        transform: translateX(500px);
+        transform: translateY(-300px);
+
+    }
+    50%{
+        transform: translateY(150px);
+    }
+    100%{
+        transform: translateY(0);
+
+    }
+}
+@keyframes traslate-1022 {
+    0%{
+        transform: translateY(-400px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+   
+}
+
+@media screen and (max-width:1022px) {
+    .nav-bar__animation-move{
+        animation: traslate-1022 .8s ease-out forwards;
+    }
+}

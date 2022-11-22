@@ -17,12 +17,15 @@
           <a href="#Enroll" class="nav-bar__index">Enroll</a>
           <a href="#" class="nav-bar__index">Comment</a>
         </nav>
+
         <img src="./images/icons8-xbox-menu-50(1).png" alt="" class="header__nave-button">
         </header>
-     
+
+
       <main class="content">
         <section class="description" id="home">
-          <h1 class="description__header">About us</h1>
+          <h1 class="description__header">Hello there, we are Conversation Time! We help people who want to practice languages find each other.<br>Find exactly what you need: exchange languages, get to know another culture, improve your language skills... but most importantly, enjoy yourself!<br>Good luck!</h1>
+
           <div class=""></div>
         </section>
 
@@ -46,15 +49,14 @@
             <p class="prompt__text"></p>
           </div>
         </section>
-        
 
-        <div class="profile" id="Enroll">
-          <p>Do you want to practice?</p>
-          <button class="profile__add-button" type="button">Make a profile</button>
-          <div class="profiles">
-            <p>Here are some people who also want to practice, choose a profile</p>
-          </div>
-        </div>
+        <section class="people"  id="Enroll">
+          <p class="people__text">Do you want to practice?</p>
+          <button class="people__addButton">Make a comment!</button>
+          <p>Here are some people who also want to practice, choose someone!</p>
+          <div class="people__profiles"></div>          
+        </section>
+
       </main>
 
       <footer class="footer">
@@ -62,59 +64,41 @@
           <a class="github" href="#"></a>
         </div>
         <div class="copyright">
-          <p class="copyright__text">Andrés Canul Mendoza</p>
-          <p class="copyright__text">Aracely Cruz Del ángel</p>
-          <p class="copyright__text">Cristian</p>
+          <p class="copyright__text">&copy; Cristian Alegria, Andrés Canul, Aracely Cruz</p>
         </div>
       </footer>
-      
-      <div class="popup">
-        <div class="popup__container">
-          <form class="form popup__form" novalidate name="form">
-            <fieldset class="form__fields">
-              <h2 class="form__heading">Create a profile</h2>
-              <div class="form__field">
-                <label for="name">Share your name</label>
-                <input type="text" class="form__input" placeholder="Nombre Apellido" name="name" value=" " id="name" required minlength="5" maxlength="40"/>
-                <span class="popup__error name-error"></span>
-                <label for="photo">Share a good profile photo</picture></label>
-                <input type="url" class="form__input" placeholder="url" name="url" value=" " id="photo" required minlength="5" maxlength="40" />
-                <span class="popup__error url-error"></span>
-                <label for="place"> Where are you from?</label>
-                <input type="text" class="form__input" placeholder="city,country" name="place" value=" " id="place" required minlength="2" maxlength="200"/>
-                <span class="popup__error place-error"></span>
-              </div>
-     
-              <div class="form__field">
-                <label for="email">Share your email</label>
-                <input type="email" class="form__input popup__input" placeholder="user@domain.com" name="email" value=" " id="email" required minlength="2" maxlength="40" />
-                <span class="popup__error email-error"></span>
 
-                <label for="email">What language do you want to practice?</label>
-                <input type="text" class="form__input popup__input" placeholder="user@domain.com" name="email" value=" " id="email" required minlength="2" maxlength="40" />
-                <span class="popup__error email-error"></span>
-              </div>
-            
-              <button class="form__Button form__submit popup__button pointer" type="submit">Save</button>
-            </fieldset>
-          </form>
-        </div>
+      <div class="popup popup_hidden">
+        <form class="form" novalidate name="form">
+          <h2 class="form__heading">Post something!</h2>
+          <fieldset class="form__fields">
+            <label class="form__label" for="name">Name</label>
+            <input type="text" class="form__input" name="name" value="" id="name" placeholder="First and last name" required minlength="5" maxlength="40"/>
+            <span class="popup__error name-error"></span>
+            <label class="form__label" for="photo">Add a picture</label>
+            <input type="url" class="form__input" placeholder="Add an image's URL" name="url" value=" " id="photo" required minlength="5" maxlength="40"/>
+            <span class="popup__error url-error"></span>
+            <label class="form__label" for="comment">Your comment:</label>
+            <textarea class="form__input" name="comment" id="comment" cols="30" rows="10" placeholder="What language do you want to practice? When are you free? Leave your contact information."></textarea>
+            <span class="popup__error place-error"></span>
+            <button class="form__button" type="submit">Post</button>
+          </fieldset>
+        </form>
       </div>
     </div>
+    <div class="overlay"></div>
 
     <template class="template__profile">
       <div class="item">
-
         <div class="avatar">
-          <img class="avatar__image" src="https://code.s3.yandex.net/web-code/lake-louise.jpg" alt="" />
+          <div class="avatar__photo-container">
+            <img class="avatar__photo" src alt="" />
+          </div>
           <p class="avatar__name"></p>
-          <p class="avatar__language"></p>
         </div>
-
-        <div class="contact">
-          <p class="contact__email"></p>
+        <div class="avatar-comment">
+          <p class="avatar-comment__text"></p>
         </div>
-
       </div>
     </template>
     <script type="module" src="./scripts/index.js"></script>

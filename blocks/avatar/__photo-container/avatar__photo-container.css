@@ -1,0 +1,8 @@
+.avatar__photo-container {
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 177.96px;
+  height: 147px;
+}

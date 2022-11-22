@@ -1,0 +1,8 @@
+.form__Button {
+  font-family: "Inter";
+  font-size: 30px;
+
+  padding: 20px 30px;
+  color: #fff;
+  background-color: #07223a;
+}

@@ -18,7 +18,7 @@
           <a href="#" class="nav-bar__index">Comment</a>
         </nav>
       </header>
-     
+
       <main class="content">
         <section class="description">
           <h1 class="description__header">About us</h1>
@@ -27,18 +27,28 @@
 
         <section class="gallery">
           <div class="">
-           <img class="avatar__image" src="https://code.s3.yandex.net/web-code/lake-louise.jpg" alt="" />
-           <img class="avatar__image" src="https://code.s3.yandex.net/web-code/lake-louise.jpg" alt="" />
-           <img class="avatar__image" src="https://code.s3.yandex.net/web-code/lake-louise.jpg" alt="" />
+            <img
+              class="avatar__image"
+              src="https://code.s3.yandex.net/web-code/lake-louise.jpg"
+              alt=""
+            />
+            <img
+              class="avatar__image"
+              src="https://code.s3.yandex.net/web-code/lake-louise.jpg"
+              alt=""
+            />
+            <img
+              class="avatar__image"
+              src="https://code.s3.yandex.net/web-code/lake-louise.jpg"
+              alt=""
+            />
           </div>
         </section>
-
-        <div class="profile">
-          <p>Do you want to practice?</p>
-          <button class="profile__add-button" type="button">Make a profile</button>
-          <div class="profiles">
-            <p>Here are some people who also want to practice, choose a profile</p>
-          </div>
+        <div class="people">
+          <button class="people__addButton">
+            Do you want to practice? Make a comment!
+          </button>
+          <div class="people__profiles"></div>
         </div>
       </main>
 
@@ -52,55 +62,74 @@
           <p class="copyright__text">Cristian</p>
         </div>
       </footer>
-      
+
       <div class="popup">
         <div class="popup__container">
           <form class="form popup__form" novalidate name="form">
             <fieldset class="form__fields">
-              <h2 class="form__heading">Create a profile</h2>
+              <h2 class="form__heading">Formulario</h2>
               <div class="form__field">
-                <label for="name">Share your name</label>
-                <input type="text" class="form__input" placeholder="Nombre Apellido" name="name" value=" " id="name" required minlength="5" maxlength="40"/>
+                <label class="form__label" for="name">Nombre</label>
+                <input
+                  type="text"
+                  class="form__input"
+                  name="name"
+                  value=" "
+                  id="name"
+                  placeholder="Nombre Apellido"
+                  required
+                  minlength="5"
+                  maxlength="40"
+                />
                 <span class="popup__error name-error"></span>
-                <label for="photo">Share a good profile photo</picture></label>
-                <input type="url" class="form__input" placeholder="url" name="url" value=" " id="photo" required minlength="5" maxlength="40" />
+                <label class="form__label" for="photo">Agrega una foto</label>
+                <input
+                  type="url"
+                  class="form__input"
+                  placeholder="url"
+                  name="url"
+                  value=" "
+                  id="photo"
+                  required
+                  minlength="5"
+                  maxlength="40"
+                />
                 <span class="popup__error url-error"></span>
-                <label for="place"> Where are you from?</label>
-                <input type="text" class="form__input" placeholder="city,country" name="place" value=" " id="place" required minlength="2" maxlength="200"/>
+                <label class="form__label" for="coment">
+                  Deja tu comentario aquí</label
+                >
+                <textarea
+                  class="form__input"
+                  name="coment"
+                  id="coment"
+                  cols="30"
+                  rows="10"
+                  placeholder="¿Qué idioma quieres practicar?,deja tu comentario y medio de contacto"
+                ></textarea>
                 <span class="popup__error place-error"></span>
               </div>
-     
-              <div class="form__field">
-                <label for="email">Share your email</label>
-                <input type="email" class="form__input popup__input" placeholder="user@domain.com" name="email" value=" " id="email" required minlength="2" maxlength="40" />
-                <span class="popup__error email-error"></span>
-
-                <label for="email">What language you want to practice?</label>
-                <input type="text" class="form__input popup__input" placeholder="user@domain.com" name="email" value=" " id="email" required minlength="2" maxlength="40" />
-                <span class="popup__error email-error"></span>
-              </div>
-            
-              <button class="form__Button form__submit popup__button pointer" type="submit">Save</button>
+              <button
+                class="form__Button form__submit popup__button pointer"
+                type="submit"
+              >
+                Publicar
+              </button>
             </fieldset>
           </form>
         </div>
       </div>
-      //page
     </div>
-
     <template class="template__profile">
       <div class="item">
-
         <div class="avatar">
-          <img class="avatar__image" src="https://code.s3.yandex.net/web-code/lake-louise.jpg" alt="" />
+          <div class="avatar__photo-container">
+            <img class="avatar__photo" src alt="" />
+          </div>
           <p class="avatar__name"></p>
-          <p class="avatar__language"></p>
         </div>
-
-        <div class="contact">
-          <p class="contact__email"></p>
+        <div class="avatar-coment">
+          <p class="avatar-coment__text"></p>
         </div>
-
       </div>
     </template>
     <script src="./scripts/index.js"></script>

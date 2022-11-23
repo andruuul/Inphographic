@@ -33,8 +33,14 @@
         right: 65px;
         width: 54px;
     }
+}*/
+@media screen and (max-width:340px){
+    .header__nave-button{
+        right: 20px;
+        width: 54px;
+    }
 }
 
 .header__nave-button:hover{
     opacity: .5;
-} */
+} 

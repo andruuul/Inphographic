@@ -1,0 +1,50 @@
+@keyframes position {
+    0%{
+        transform: translatex(-400px);
+        opacity: .5;
+    }
+    50%{
+        transform: translatex(200px);
+        opacity: 1;
+    }
+    100%{
+        transform: translatex(0);
+
+    }
+
+}
+
+.popup__animation-position{
+    top: 15%;
+    left: auto;
+    animation: position 1.5s ease-in-out forwards;
+    /* animation: boxShadow 7s ease-in-out infinite; */
+
+
+}
+@media screen and (max-width:550px) {
+    @keyframes position {
+        0%{
+            transform: translatey(-400px);
+            opacity: .5;
+        }
+        50%{
+            transform: translatey(200px);
+            opacity: 1;
+        }
+        100%{
+            transform: translatey(0);
+    
+        }
+    
+    }
+    .popup__animation{
+        animation: position 1.5s ease-in-out forwards;
+
+    }
+}
+@media screen and (max-width:400px) {
+    .popup__animation{
+        left: 10px;
+    }
+}

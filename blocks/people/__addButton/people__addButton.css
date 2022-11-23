@@ -1,4 +1,6 @@
 .people__addButton {
+  width: 80%;
+  padding: 10px 0;
   background-color: #07223a;
   max-width: 1142px;
   font-family: "Inter";

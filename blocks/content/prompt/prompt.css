@@ -1,5 +1,8 @@
 .prompt {
   max-width: 100%;
+  color: white;
+  border-radius:25px;
+  background: #3D5A80;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;

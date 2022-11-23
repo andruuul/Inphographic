@@ -1,4 +1,6 @@
 .prompt__button {
+    width: 90%;
+    border-radius:20px;
     font-family: 'Inter';
     font-weight: normal;
     font-size: 14px;
@@ -7,8 +9,7 @@
     border: none;
     resize: none;
     outline: none;
-    display: block;
-    margin: 0 0 20px 10px;
+    margin:  20px 10px;
     height: 36px;
     background-color: #07223A;
 

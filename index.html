@@ -25,7 +25,6 @@
       <main class="content">
         <section class="description" id="home">
           <h1 class="description__header">Hello there, we are Conversation Time! We help people who want to practice languages find each other.<br>Find exactly what you need: exchange languages, get to know another culture, improve your language skills... but most importantly, enjoy yourself!<br>Good luck!</h1>
-        <!-- <section class="description" id="home"> -->
           <div class="description__container">
             <h1 class="description__header">
               Hello there, we are Conversation Time!
@@ -73,7 +72,7 @@
         <section class="people" id="comments">
           <p class="people__text">Do you want to practice?</p>
           <button class="people__addButton">Make a comment!</button>
-          <p>Here are some people who also want to practice, choose someone!</p>
+          <p class="people__text">Here are some people who also want to practice, choose someone!</p>
           <div class="people__profiles"></div>
         </section>
       </main>
@@ -100,7 +99,7 @@
             <label class="form__label" for="photo">Add a picture</label>
             <input type="url" class="form__input" placeholder="Add an image's URL" name="url" value="" id="url" required />
             <span class="form__input-error url-input-error"></span>
-            <label class="form__label" for="comment">Your comment:</label>
+            <label class="form__label" for="comment">Your comment</label>
             <textarea class="form__input" name="comment" id="comment" required cols="30" rows="10" minlength="20" maxlength="400" placeholder="What language do you want to practice? When are you available to have a call? Leave your contact information."></textarea>
             <span class="form__input-error comment-input-error"></span>
             <button class="form__button form__button_inactive" type="submit">Post</button>
@@ -125,7 +124,7 @@
       </div>
     </template>
     <script type="module" src="./scripts/index.js"></script>
-    <script src="./scripts/nave-button.js"></script>
+    <script src="./scripts/button-animations.js"></script>
     <script src="./scripts/nab-bar_scroll.js"></script>
   </body>
 </html>

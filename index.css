@@ -19,6 +19,7 @@
 @import url(./blocks/people/people.css);
 @import url(./blocks/people/__addButton/people__addButton.css);
 @import url(./blocks/people/__profiles/people__profiles.css);
+@import url(./blocks/people/__text/people___text.css);
 @import url(./blocks/item/item.css);
 @import url(./blocks/avatar/avatar.css);
 @import url(./blocks/avatar/__photo-container/avatar__photo-container.css);
@@ -46,6 +47,9 @@
 @import url(./blocks/content/prompt/__category/prompt__category.css);
 @import url(./blocks/content/prompt/prompt.css);
 @import url(./blocks/overlay/overlay.css);
+
+@import url(./blocks/popup/__animation-position/popup__animation-position.css);
+@import url(./blocks/popup/__animation-shadoxbox/popup__animation-shadowbox.css);
 @import url(./blocks/nav-bar/__show/nav-bar__show.css);
 @import url(./blocks/nav-bar/__paste/nav-bar__paste.css);
 @import url(./blocks/header/__none-display/nav-bar__none.css);

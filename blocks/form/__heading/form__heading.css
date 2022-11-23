@@ -4,3 +4,10 @@
   color: #fff;
   align-self: center;
 }
+
+@media screen and (max-width: 520px) {
+  .form__heading {
+    font-size: 30px;
+    padding-left: 15px;
+  }
+}

@@ -6,3 +6,12 @@
   resize: none;
   border: transparent;
 }
+
+@media screen and (max-width: 520px) {
+  .form__input {
+    max-width: 280px;
+    max-height: 400px;
+  }
+}
+
+

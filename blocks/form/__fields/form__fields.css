@@ -6,3 +6,9 @@
   overflow: hidden;
   border: transparent;
 }
+
+@media screen and (max-width: 520px) {
+  .form__fields {
+    width: 320px;
+  }
+}

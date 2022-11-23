@@ -29,9 +29,7 @@ const commentPopup = new Popup({ popupSelector:".popup", handleSubmit: (data) =>
   const newComment = new Profile(data, ".template__profile")
   const commentElement = newComment.generateProfile()
 
-  document.querySelector(".people__profiles").append(commentElement);
-  console.log(commentElement)
-  
+  document.querySelector(".people__profiles").append(commentElement);  
 }})
 commentPopup.setEventListeners()
 
@@ -46,7 +44,6 @@ document.querySelector(".people__addButton").addEventListener("click", (evt) => 
 ////Validación de formularios
 const form = document.querySelector('.form');
 form.addEventListener("change",() => {
-  console.log("change")
     document.querySelector(".form__button").disabled = !form.checkValidity()
 });
 
@@ -54,7 +51,6 @@ const formValidators = {}
 
 //Ahora lo dejamos como un "forEach" que trabaja con un array, porque aunque solo haya un formulario ahora, nos gustaría planear a futuro y que esta validación nos sirva para los próximos formularios que creemos con el paso del tiempo.
 const enableValidation = (settings) => {
-  console.log(settings)
   const formList = Array.from(document.querySelectorAll(".form"))
   formList.forEach((formElement) => {
     const validator = new FormValidator(formElement, settings)

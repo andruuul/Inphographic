@@ -21,3 +21,9 @@
   overflow: hidden;
   background-color: transparent;
 }
+
+@media screen and (max-width: 520px) {
+  .popup {
+    width: 320px;
+  }
+}

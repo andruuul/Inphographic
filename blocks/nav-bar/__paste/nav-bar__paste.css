@@ -22,7 +22,7 @@
    
 }
 
-@media screen and (max-width:1060px) {
+@media screen and (max-width:1220px) {
     .nav-bar__paste{
         position: fixed;
         top: 0;
@@ -30,7 +30,7 @@
     }
 }
 
-@media screen and (max-width:620px) {
+@media screen and (max-width:640px) {
     .nav-bar__paste{
         animation: traslate 1s ease-in-out forwards;
     }

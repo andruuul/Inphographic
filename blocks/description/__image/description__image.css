@@ -1,3 +1,24 @@
 .description__image {
   border-radius: 0 30px 30px 0;
 }
+
+
+@media screen and (max-width:920px) {
+  .description__image{
+    width: 350px;
+  }
+}
+
+@media screen and (max-width:786px) {
+  .description__image{
+    width: 300px;
+  }
+}
+
+@media screen and (max-width:630px) {
+  .description__image{
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+  }
+}

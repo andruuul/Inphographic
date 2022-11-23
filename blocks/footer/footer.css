@@ -1,11 +1,9 @@
 .footer {
-  width: 100%;
-  border-radius:25px 25px 0 0;
+  min-width: 100%;
+  border-radius:55px 55px 0 0;
   font-family: "Inter";
   font-size: 20px;
   color: #fff;
-  display: flex;
-  flex-direction: row;
   row-gap: 25px;
   text-align: center;
   padding: 25px 10px 15px 10px;

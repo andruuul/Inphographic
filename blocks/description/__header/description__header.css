@@ -2,4 +2,23 @@
   font-family: "Inter-Black";
   font-size: 40px;
   color: #fff;
+  overflow: hidden;
+}
+
+
+@media screen and (max-width:786px) {
+  .description__header{
+    font-size: 35px;
+  }
+}
+@media screen and (max-width:670px) {
+  .description__header{
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .description__header{
+    font-size: 25px;
+  }
 }

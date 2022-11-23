@@ -6,21 +6,22 @@
 }
 
 
-@media screen and (max-width:620px){
+@media screen and (max-width:640px){
     .header__nave-button{
         display: block;
+        right: 0;
+
     }
 }
 
 
-@media screen and (max-width:480px){
+@media screen and (max-width:510px){
     .header__nave-button{
-        top: 40px;
-        right: 15px;
+        top: 55px;
     }
 }
 
-@media screen and (max-width:420px){
+/* @media screen and (max-width:420px){
     .header__nave-button{
         right: 35px;
 
@@ -36,4 +37,4 @@
 
 .header__nave-button:hover{
     opacity: .5;
-}
+} */

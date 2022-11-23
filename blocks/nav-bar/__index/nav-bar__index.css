@@ -67,6 +67,33 @@
   }
 }
 
+@media screen and (max-width: 475px) {
+  .nav-bar__index {
+    width: 80px;
+    height: 20px;
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .nav-bar__index {
+    font-size: 15px;
+    height: 20px;
+    padding: 20px 10px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .nav-bar__index {
+    height: 30px;
+    padding: 5px 5px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .nav-bar__index {
+    height: 30px;
+    padding: 5px 5px;
+  }
+}
 .nav-bar__index:hover{
   opacity: .5;
 }

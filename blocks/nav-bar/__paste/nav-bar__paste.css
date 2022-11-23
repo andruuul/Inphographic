@@ -1,0 +1,37 @@
+@keyframes traslate {
+    0%{
+        transform: translateX(500px);
+        transform: translateY(-300px);
+
+    }
+    50%{
+        transform: translateY(150px);
+    }
+    100%{
+        transform: translateY(0);
+
+    }
+}
+@keyframes traslate-1022 {
+    0%{
+        transform: translateY(-400px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+   
+}
+
+@media screen and (max-width:1022px) {
+    .nav-bar__paste{
+        position: fixed;
+        top: 0;
+        animation: traslate-1022 .8s ease-out forwards;
+    }
+}
+
+@media screen and (max-width:620px) {
+    .nav-bar__paste{
+        animation: traslate 1s ease-in-out forwards;
+    }
+}

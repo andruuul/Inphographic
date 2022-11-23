@@ -8,32 +8,39 @@
   align-items: center;
   justify-content: center;
   justify-content: space-evenly;
+
 }
 
 @media screen and (max-width: 1180px) {
   .nav-bar {
     width: 688px;
     height: 57px;
+    
   }
 }
 
+@media screen and (max-width: 1022px) {
+  .nav-bar {
+    width: 100%;
+    padding: 20px 0;
+    justify-content: space-evenly;
+  }
+}
 @media screen and (max-width: 970px) {
   .nav-bar {
-    width: 760px;
     height: 57px;
+    top: 0;
   }
 }
 
 @media screen and (max-width: 860px) {
   .nav-bar {
-    width: 688px;
     height: 57px;
   }
 }
 
 @media screen and (max-width: 692px) {
   .nav-bar {
-    width: 600px;
     height: 57px;
   }
 }
@@ -43,10 +50,10 @@
     display: none;
     height: 300px;
     width: 200px;
-    padding: 20px 0;
     position: absolute;
-    top:18%;
     right: 0;
+    top: 20%;
+    padding: 20px 0;
     border-radius: 30px;
     flex-direction: column;
     justify-content: space-around;

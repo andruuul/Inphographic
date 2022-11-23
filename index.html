@@ -9,23 +9,25 @@
   </head>
   <body>
     <div class="page">
-      <header class="header">
-        <img src="./images/logo.png" alt="logo page" class="logo" />
+
+      <header class="header" id="home">
+        <img src="./images/logo.png" alt="logo page" class="logo">
+
         <nav class="nav-bar">
-          <a href="#home" class="nav-bar__index">Home</a>
+          <a href="#home" id="home-button" class="nav-bar__index">Home</a>
           <a href="#gallery" class="nav-bar__index">Gallery</a>
           <a href="#prompts" class="nav-bar__index">Prompts</a>
           <a href="#comments" class="nav-bar__index">Comments</a>
         </nav>
+        <img src="./images/icons8-xbox-menu-50(1).png" alt="" class="header__nave-button">
+        </header>
 
-        <img
-          src="./images/icons8-xbox-menu-50(1).png"
-          alt=""
-          class="header__nave-button"
-        />
-      </header>
 
       <main class="content">
+        <section class="description" style="display:flex;flex-direction: column;">
+          <h1 class="description__header">Hello there, we are Conversation Time! We help people who want to practice languages find each other.<br>Find exactly what you need: exchange languages, get to know another culture, improve your language skills... but most importantly, enjoy yourself!<br>Good luck!</h1>
+
+
         <section class="description" id="home">
           <div class="description__container">
             <h1 class="description__header">
@@ -47,21 +49,11 @@
         </section>
 
         <section class="gallery" id="gallery">
-          <figure class="gallery__item">
-            <img src="./images/couch.jpg" alt="" class="gallery__image" />
-          </figure>
-          <figure class="gallery__item">
-            <img src="./images/letters.jpg" alt="" class="gallery__image" />
-          </figure>
-          <figure class="gallery__item">
-            <img src="./images/brunch.jpg" alt="" class="gallery__image" />
-          </figure>
-          <figure class="gallery__item">
-            <img src="./images/family.jpg" alt="" class="gallery__image" />
-          </figure>
-          <figure class="gallery__item">
-            <img src="./images/coffee.jpg" alt="" class="gallery__image" />
-          </figure>
+          <figure class="gallery__item"><img src="./images/couch.jpg" alt="" class="gallery__image"></figure>
+          <figure class="gallery__item"><img src="./images/letters.jpg" alt="" class="gallery__image"></figure>
+          <figure class="gallery__item"><img src="./images/brunch.jpg" alt="" class="gallery__image"></figure>
+          <figure class="gallery__item"><img src="./images/family.jpg" alt="" class="gallery__image"></figure>
+          <figure class="gallery__item"><img src="./images/coffee.jpg" alt="" class="gallery__image"></figure>
         </section>
 
         <section class="prompt" id="prompts">
@@ -71,15 +63,9 @@
               <label class="prompt__subtitle"
                 >Type a number from 1 to 20 to get a prompt</label
               >
-              <input
-                class="prompt__input"
-                type="number"
-                name="prompt"
-                max="20"
-                min="1"
-                required
-                placeholder="1 - 20"
-              />
+
+              <input class="prompt__input" type="number" name="prompt" max="20" min="1" required placeholder="1 - 20" />
+
               <button class="prompt__button">Get prompt!</button>
             </form>
             <p class="prompt__category"></p>
@@ -96,9 +82,14 @@
       </main>
 
       <footer class="footer">
-        <div class="footer__info">
-          <a class="footer__link">Contacto</a>
-          <a class="footer__link"> Política de privacidad </a>
+
+        <div class="social-media">
+          <a class="github" href="#"></a>
+        </div>
+        <div class="copyright">
+          <p class="copyright__text">
+            &copy; Cristian Alegria, Andrés Canul, Aracely Cruz
+          </p>
         </div>
 
         <p class="footer__copyright">
@@ -111,45 +102,16 @@
           <h2 class="form__heading">Post something!</h2>
           <fieldset class="form__fields">
             <label class="form__label" for="name">Name</label>
-            <input
-              type="text"
-              class="form__input"
-              name="name"
-              value=""
-              id="name"
-              placeholder="First and last name"
-              required
-              minlength="5"
-              maxlength="40"
-            />
+            <input type="text" class="form__input" name="name" value="" id="name" placeholder="First and last name" required minlength="5" maxlength="40"/>
             <span class="form__input-error name-input-error"></span>
             <label class="form__label" for="photo">Add a picture</label>
-            <input
-              type="url"
-              class="form__input"
-              placeholder="Add an image's URL"
-              name="url"
-              value=""
-              id="url"
-              required
-            />
+            <input type="url" class="form__input" placeholder="Add an image's URL" name="url" value="" id="url" required />
             <span class="form__input-error url-input-error"></span>
             <label class="form__label" for="comment">Your comment:</label>
-            <textarea
-              class="form__input"
-              name="comment"
-              id="comment"
-              required
-              cols="30"
-              rows="10"
-              minlength="20"
-              maxlength="400"
-              placeholder="What language do you want to practice? When are you available to have a call? Leave your contact information."
-            ></textarea>
+            <textarea class="form__input" name="comment" id="comment" required cols="30" rows="10" minlength="20" maxlength="400" placeholder="What language do you want to practice? When are you available to have a call? Leave your contact information."></textarea>
             <span class="form__input-error comment-input-error"></span>
-            <button class="form__button form__button_inactive" type="submit">
-              Post
-            </button>
+            <button class="form__button form__button_inactive" type="submit">Post</button>
+
           </fieldset>
         </form>
       </div>
@@ -171,5 +133,6 @@
     </template>
     <script type="module" src="./scripts/index.js"></script>
     <script src="./scripts/nave-button.js"></script>
+    <script src="./scripts/nab-bar_scroll.js"></script>
   </body>
 </html>

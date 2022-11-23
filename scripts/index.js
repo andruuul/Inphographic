@@ -54,6 +54,7 @@ const formValidators = {}
 
 //Ahora lo dejamos como un "forEach" que trabaja con un array, porque aunque solo haya un formulario ahora, nos gustaría planear a futuro y que esta validación nos sirva para los próximos formularios que creemos con el paso del tiempo.
 const enableValidation = (settings) => {
+  console.log(settings)
   const formList = Array.from(document.querySelectorAll(".form"))
   formList.forEach((formElement) => {
     const validator = new FormValidator(formElement, settings)

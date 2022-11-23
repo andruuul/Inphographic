@@ -24,3 +24,9 @@
   color: rgb(138, 138, 138);
   pointer-events: none;
 }
+
+@media screen and (max-width: 520px) {
+  .form__button {
+    margin: 10px 0 0;
+  }
+}

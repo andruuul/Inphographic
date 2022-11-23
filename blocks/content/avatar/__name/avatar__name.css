@@ -2,4 +2,23 @@
   font-family: "Inter";
   font-size: 40px;
   color: #fff;
+  min-width: 200px;
+}
+
+@media screen and (max-width: 700px) {
+  .avatar__name {
+    font-family: "Inter";
+    font-size: 30px;
+    color: #fff;
+    text-overflow: ellipsis;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .avatar__name {
+    font-family: "Inter";
+    font-size: 20px;
+    color: #fff;
+    text-overflow: ellipsis;
+  }
 }

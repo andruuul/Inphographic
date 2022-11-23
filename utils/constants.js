@@ -33,7 +33,7 @@ export const profiledata = [
     comment: "大家好！我想练习普通话，我可以帮助你学习西班牙语或意大利语。 给我发微信：dewen8998",
   },
   {
-    name: "Aracely Cruz Del ángel",
+    name: "Aracely Cruz",
     url: "https://code.s3.yandex.net/web-code/lago.jpg",
     comment: "Hola, quiero practicar inglés básico, envíame un email! Normalmente estoy libre los lunes y podemos hablar por Zoom o Skype. aracely@gmail.com",
   },

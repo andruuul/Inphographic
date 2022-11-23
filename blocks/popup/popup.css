@@ -1,6 +1,6 @@
 .popup {
   max-height: 1100px;
-  max-width: 1140px;
+  width: 600px;
   background: #FFFFFF;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
   border-radius: 10px;

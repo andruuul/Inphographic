@@ -30,6 +30,7 @@
 @media screen and (max-width:380px){
     .header__nave-button{
         right: 65px;
+        width: 54px;
     }
 }
 

@@ -1,7 +1,6 @@
 /*Faltan todos los elementos del componente nav-bar*/
 .nav-bar {
-  width: 922px;
-  height: 179px;
+  width: 850px;
   background-color: #293241;
   display: flex;
   flex-direction: row;
@@ -21,13 +20,14 @@
 
 @media screen and (max-width: 1022px) {
   .nav-bar {
-    width: 100%;
-    padding: 20px 0;
+    width: 990px;
+    padding: 0;
     justify-content: space-evenly;
   }
 }
 @media screen and (max-width: 970px) {
   .nav-bar {
+    width: 940px;
     height: 57px;
     top: 0;
   }
@@ -35,6 +35,7 @@
 
 @media screen and (max-width: 860px) {
   .nav-bar {
+    width: 890px;
     height: 57px;
   }
 }

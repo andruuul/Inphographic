@@ -4,7 +4,7 @@
 
 Esta landing page tiene el propósito de ser un medio en el cual los interlocutores puedan interactuar y organizarse para practicar idiomas.
 
-![Conversation Time]()
+![Conversation Time](https://andruuul.github.io/conversation-time/)
 
 Tecnologias Utilizadas 🛠️
 
@@ -40,4 +40,4 @@ Tecnologias Utilizadas 🛠️
 
 ## Proyecto en Vivo 💻
 
-- [Visista la página!]()
+- [Visista la página!](https://andruuul.github.io/conversation-time/)

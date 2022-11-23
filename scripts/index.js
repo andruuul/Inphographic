@@ -1,7 +1,3 @@
-//const forms = document.querySelectorAll(".form");
-//const addProfileButton = document.querySelector(".profile__add-button");
-//console.log(addProfileButton);
-
 import { conversationPrompts, profiledata, settings } from "../utils/constants.js";
 import Popup from "../components/Popup.js";
 import Profile from "../components/Profile.js";

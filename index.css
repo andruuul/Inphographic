@@ -45,12 +45,15 @@
 @import url(./blocks/content/prompt/__category/prompt__category.css);
 @import url(./blocks/content/prompt/prompt.css);
 @import url(./blocks/overlay/overlay.css);
-
 @import url(./blocks/nav-bar/__show/nav-bar__show.css);
 @import url(./blocks/nav-bar/__paste/nav-bar__paste.css);
 @import url(./blocks/header/__none-display/nav-bar__none.css);
 @import url(./blocks/nav-bar/__animation-move/nav-bar__animation-move.css);
 
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__info/footer__info.css);
+@import url(./blocks/footer/__link/footer__link.css);
+@import url(./blocks/footer/__copyright/footer__copyright.css);
 @font-face {
   font-family: "Inter";
   src: url(./fonts/Inter-Regular.woff2) format("woff2"),

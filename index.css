@@ -15,9 +15,9 @@
 @import url(./blocks/content/description/__image/description__image.css);
 @import url(./blocks/content/description/__text/description__text.css);
 @import url(./blocks/content/description/__span/description__span.css);
-@import url(/blocks/content/gallery/gallery.css);
-@import url(/blocks/content/gallery/__image/gallery__image.css);
-@import url(/blocks/content/gallery/__item/gallery__item.css);
+@import url(blocks/content/gallery/gallery.css);
+@import url(blocks/content/gallery/__image/gallery__image.css);
+@import url(blocks/content/gallery/__item/gallery__item.css);
 @import url(./blocks/content/people/people.css);
 @import url(./blocks/content/people/__addButton/people__addButton.css);
 @import url(./blocks/content/people/__text/people__text.css);

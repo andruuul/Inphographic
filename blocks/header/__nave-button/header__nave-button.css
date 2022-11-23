@@ -1,6 +1,6 @@
 .header__nave-button {
   width: 64px;
-  position: relative;
+  position: absolute;
   right: 40px;
   display: none;
 }
@@ -9,37 +9,33 @@
 @media screen and (max-width:640px){
     .header__nave-button{
         display: block;
-        right: 0;
+        right: 70px;
+        top: 160px;
 
     }
 }
 
 
-@media screen and (max-width:510px){
+@media screen and (max-width:520px){
     .header__nave-button{
-        top: 55px;
+        top:160px;
+        right: 40px;
     }
 }
 
-/* @media screen and (max-width:420px){
+ @media screen and (max-width:480px){
     .header__nave-button{
-        right: 35px;
+        right: 0px;
 
     }
 }
 
-@media screen and (max-width:380px){
+ @media screen and (max-width:380px){
     .header__nave-button{
-        right: 65px;
-        width: 54px;
+        right: -10px;
     }
-}*/
-@media screen and (max-width:340px){
-    .header__nave-button{
-        right: 20px;
-        width: 54px;
-    }
-}
+} 
+
 
 .header__nave-button:hover{
     opacity: .5;

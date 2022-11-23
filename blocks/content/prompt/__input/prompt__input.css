@@ -1,7 +1,7 @@
 .prompt__input {
   font-family: 'Inter';
   font-weight: normal;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1.21;
   color: #000;
   border: none;
@@ -11,5 +11,5 @@
   text-align: center;
   display: block;
   margin: 0;
-  height: 32px;
+  height: 60px;
 }

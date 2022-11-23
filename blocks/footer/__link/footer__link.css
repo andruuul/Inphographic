@@ -1,8 +1,14 @@
 .footer__link {
-  width: 43.51%;
   display: block;
   padding: 20px;
   background-color: #3d5a80;
   border-radius: 20px;
-  max-width: 43.51%px;
+  max-width: 43%;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer__link:hover {
+  opacity: .6;
+  cursor: pointer;
 }

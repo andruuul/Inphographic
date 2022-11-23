@@ -33,7 +33,9 @@ export default class Popup {
     this._popup.querySelector(".form__button").addEventListener("click", (evt) => {
         evt.preventDefault();
         this._handleSubmit(this._getInputValues())
-        this.close()})
+        this.close()
+        this._form.reset()
+      })
   }
 
   _getInputValues(){ 

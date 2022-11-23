@@ -24,7 +24,7 @@ profiledata.forEach((item) => {
 });
 
 
-////Crear popup
+////Crear comentario
 const commentPopup = new Popup({ popupSelector:".popup", handleSubmit: (data) => {
   const newComment = new Profile(data, ".template__profile")
   const commentElement = newComment.generateProfile()

@@ -5,7 +5,7 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/nav-bar/nav-bar.css);
 @import url(../blocks/header/nav-bar/__index/nav-bar__index.css);
-@import url(../blocks/header/__nave-button/header__nave-button.css);
+@import url(../blocks/header/__nav-button/header__nav-button.css);
 @import url(../blocks/header/nav-bar/__show/nav-bar__show.css);
 @import url(../blocks/header/nav-bar/__paste/nav-bar__paste.css);
 @import url(../blocks/header/__none-display/nav-bar__none.css);

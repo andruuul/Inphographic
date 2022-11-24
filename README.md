@@ -17,11 +17,10 @@ Tecnologias Utilizadas 🛠️
 2. CCS Grid
 3. CCS Flexbox
 4. JavaScript
-5. POO (Programación Orientada a Objetos)
 
 - Uso de manejadores de eventos en funciones separadas para llamar a los _setEventListeners_ .
-
-5. JavaScript modular
+5. POO (Programación Orientada a Objetos)
+6. JavaScript modular
 
 - Implementado al separar un único archivo de script en varias partes de código más pequeñas y manejables.
 - Se utilizó la importación de constantes desde el archivo _utils.j_

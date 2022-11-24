@@ -97,7 +97,7 @@
 .nav-bar__index:hover{
   opacity: .5;
 }
-/* media quary para animaciones en pantalla hd en adelante */
+/* media query para animaciones en pantalla hd en adelante */
 @media screen and (min-width: 1400px) {
   .nav-bar__index:hover {
     animation: hover 0.6s ease-in-out forwards;

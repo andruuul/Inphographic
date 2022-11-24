@@ -1,6 +1,5 @@
 .logo {
-  width: 528px;
-  max-height: 200px;
+  width: 380px;
   /* background-image: url("../../images/logo.png");
   background-repeat: no-repeat;
   background-size: cover; */
@@ -13,27 +12,15 @@
   }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 640px) {
+  .logo {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 440px) {
   .logo {
     width: 400px;
   }
 }
 
-@media screen and (max-width: 575px) {
-  .logo {
-    width: 220px;
-  }
-}/*
-@media screen and (max-width: 420px) {
-  .logo {
-    position: relative;
-    bottom: 30px;
-  }
-}
-@media screen and (max-width: 390px) {
-  .logo {
-    width: 320px;
-    bottom: 10px;
-  }
-}
-*/

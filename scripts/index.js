@@ -61,6 +61,17 @@ const enableValidation = (settings) => {
 };
 enableValidation(settings);
 
+////Animación popup
+const peopleAddButton = document.querySelector(".people__addButton")
+const overlay = document.querySelector(".overlay")
 
-
-
+function animationPopupAdd(){
+    popup.classList.add("popup__animation-position")
+    popup.classList.add("popup__animation-shadowbox")
+  }
+  function animationPopupRemove(){
+    popup.classList.remove("popup__animation-position")
+    popup.classList.remove("popup__animation-shadowbox")
+  }
+  peopleAddButton.addEventListener("click",animationPopupAdd);
+  overlay.addEventListener("click",animationPopupRemove);
